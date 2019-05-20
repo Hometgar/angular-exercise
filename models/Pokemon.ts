@@ -9,4 +9,8 @@ export class Pokemon {
         public specialDefense: number,
         public speed: number
     ){}
+
+    toString(){
+        return JSON.stringify(this);
+    }
 }
