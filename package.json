@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Hometgar/angular-exercise/issues"
   },
-  "homepage": "https://github.com/Hometgar/angular-exercise#readme"
+  "homepage": "https://github.com/Hometgar/angular-exercise#readme",
+  "dev-dependencies": {
+    "typescript": "^3.4.5"
+  }
 }
